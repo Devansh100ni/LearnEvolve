@@ -1,0 +1,28 @@
+﻿-- Insert sample users
+INSERT INTO [dbo].[Users] ([UserName], [Email], [PasswordHash], [FirstName], [LastName], [Role], [IsActive])
+VALUES
+('jdoe', 'jdoe@example.com', 'hashedpassword1', 'John', 'Doe', 'Admin', 1),
+('asmith', 'asmith@example.com', 'hashedpassword2', 'Alice', 'Smith', 'User', 1),
+('bking', 'bking@example.com', 'hashedpassword3', 'Bob', 'King', 'User', 1),
+('clark', 'clark@example.com', 'hashedpassword4', 'Charlie', 'Clark', 'User', 1),
+('dlee', 'dlee@example.com', 'hashedpassword5', 'David', 'Lee', 'User', 1),
+('emartin', 'emartin@example.com', 'hashedpassword6', 'Emma', 'Martin', 'Admin', 1),
+('fwhite', 'fwhite@example.com', 'hashedpassword7', 'Frank', 'White', 'User', 1),
+('gwalker', 'gwalker@example.com', 'hashedpassword8', 'Grace', 'Walker', 'User', 1),
+('hyoung', 'hyoung@example.com', 'hashedpassword9', 'Henry', 'Young', 'User', 1),
+('ijones', 'ijones@example.com', 'hashedpassword10', 'Ivy', 'Jones', 'User', 1),
+('jgreen', 'jgreen@example.com', 'hashedpassword11', 'Jack', 'Green', 'User', 1),
+('klopez', 'klopez@example.com', 'hashedpassword12', 'Karen', 'Lopez', 'User', 1),
+('lturner', 'lturner@example.com', 'hashedpassword13', 'Luke', 'Turner', 'User', 1),
+('mmorris', 'mmorris@example.com', 'hashedpassword14', 'Mia', 'Morris', 'User', 1),
+('nscott', 'nscott@example.com', 'hashedpassword15', 'Noah', 'Scott', 'User', 1),
+('oedwards', 'oedwards@example.com', 'hashedpassword16', 'Olivia', 'Edwards', 'User', 1),
+('pparker', 'pparker@example.com', 'hashedpassword17', 'Paul', 'Parker', 'User', 1),
+('qhall', 'qhall@example.com', 'hashedpassword18', 'Quinn', 'Hall', 'User', 1),
+('rallen', 'rallen@example.com', 'hashedpassword19', 'Rachel', 'Allen', 'User', 1),
+('swright', 'swright@example.com', 'hashedpassword20', 'Sam', 'Wright', 'User', 1),
+('tmoore', 'tmoore@example.com', 'hashedpassword21', 'Tom', 'Moore', 'Admin', 1),
+('uross', 'uross@example.com', 'hashedpassword22', 'Uma', 'Ross', 'User', 1),
+('vcooper', 'vcooper@example.com', 'hashedpassword23', 'Victor', 'Cooper', 'User', 1),
+('wwilson', 'wwilson@example.com', 'hashedpassword24', 'Wendy', 'Wilson', 'User', 1),
+('xreed', 'xreed@example.com', 'hashedpassword25', 'Xander', 'Reed', 'User', 1);
